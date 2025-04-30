@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обіцянка даних</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #data-container {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            min-height: 50px;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Отримання даних</h1>
+    <div id="data-container">Тут з'являться дані...</div>
+    <button id="load-btn">Завантажити дані</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
